@@ -1,10 +1,22 @@
 package lesson001;
 
+import java.security.DrbgParameters.NextBytes;
+import java.util.Scanner;
+
 public class Question1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Github Denemesi");
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Adiniz : ");
+		
+		String ad = scanner.next();
+		
+		System.out.println("Soyadiniz : ");
+		
+		String soyad = scanner.next();
+		
+		System.out.println("Hosgeldiniz :  " + (ad +" " + soyad ));
 
 	}
 
