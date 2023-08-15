@@ -1,5 +1,6 @@
 package lesson001;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Question3 {
@@ -13,7 +14,17 @@ public class Question3 {
 		
 		double hamfiyat = urunfiyati/(1.18*1.15);
 		System.out.println("ham fiyat : " + hamfiyat);
+		
+		
+		
+		
+		
+			
+			
+			
+			
+		}
 
 	}
 
-}
+
