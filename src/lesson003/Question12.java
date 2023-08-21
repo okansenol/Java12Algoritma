@@ -1,4 +1,4 @@
-package lesson3;
+package lesson003;
 
 import java.awt.TexturePaint;
 import java.util.Scanner;
